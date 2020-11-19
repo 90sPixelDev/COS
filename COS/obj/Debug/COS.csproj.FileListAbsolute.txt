@@ -1,0 +1,15 @@
+D:\Projects\repos\COS\COS\obj\Debug\COS.csprojAssemblyReference.cache
+D:\Projects\repos\COS\COS\obj\Debug\COS.Properties.Resources.resources
+D:\Projects\repos\COS\COS\obj\Debug\COS.csproj.GenerateResource.cache
+D:\Projects\repos\COS\COS\obj\Debug\COS.csproj.CoreCompileInputs.cache
+D:\Projects\repos\COS\COS\obj\Debug\COS.COS_Start.resources
+D:\Projects\repos\COS\COS\bin\Debug\Character Organizer Sheet.exe.config
+D:\Projects\repos\COS\COS\bin\Debug\Character Organizer Sheet.exe.manifest
+D:\Projects\repos\COS\COS\bin\Debug\Character Organizer Sheet.application
+D:\Projects\repos\COS\COS\bin\Debug\Character Organizer Sheet.exe
+D:\Projects\repos\COS\COS\bin\Debug\Character Organizer Sheet.pdb
+D:\Projects\repos\COS\COS\obj\Debug\Character Organizer Sheet.exe.manifest
+D:\Projects\repos\COS\COS\obj\Debug\Character Organizer Sheet.application
+D:\Projects\repos\COS\COS\obj\Debug\Character Organizer Sheet.exe
+D:\Projects\repos\COS\COS\obj\Debug\Character Organizer Sheet.pdb
+D:\Projects\repos\COS\COS\obj\Debug\COS.Edit_Chara_Sheet.resources

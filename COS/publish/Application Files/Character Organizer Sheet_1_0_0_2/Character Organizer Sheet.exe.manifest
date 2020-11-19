@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Character Organizer Sheet.exe" version="1.0.0.2" publicKeyToken="d3486133b5c1a9e5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="COS_LOGO.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Character Organizer Sheet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Character Organizer Sheet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Character Organizer Sheet.exe" size="873944">
+      <assemblyIdentity name="Character Organizer Sheet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KkyZNI0yuRP0H2W0casEU+nUlRdbTPXEbVY7AOzl8vY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Character Organizer Sheet.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="COS_LOGO.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D1Yr8R+Zq9Vz/mFrDrbQDcUT+0ZjfrwFpzSUSAVHcmY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=-DRAGON_POWER-\moong" issuerKeyHash="c79339e17fdbd0d4912737569dce399952838fee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AGq32aOMOfLgMHB06fyFs7LadqnWyX55yjF/qGnHfrs=</DigestValue></Reference></SignedInfo><SignatureValue>Y1m6415RPTfzr9aAn1dIInYwDhyDFciyEcqvILh4hWEMKIP+R/SOGo88j6FHwBDDAk4UebPrFLGNdn/qDIO6ztlGMG6WMU2h6uUORWq5iOKVjvSNClFiINDYDY0DQlnyOlkDOWUct8gWSjU9WKVu7K6AHOKw7U7dJhI43FZylJ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r9bampNGIVvDgz4iZEC8yeOOYsd/6p8ot8dxkTjltOnqIFbpDlTUTI0h9gpz8NBQTvHInl5s16TL3Il20PqcW05b4B7Nu0/p0QJZQOG4lntV9kqT5ZSoBbPcdxwoP7xRWjUS04aie2d/S1COaWV23Qiphnf+iSwIO6kmMb+9BV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bb7ec769a87f31ca797ec9d6a976dab2b385fce9747030e0f2398ca3d9b76a00" Description="" Url=""><as:assemblyIdentity name="Character Organizer Sheet.exe" version="1.0.0.2" publicKeyToken="d3486133b5c1a9e5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=-DRAGON_POWER-\moong</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TwadvgDfQ1YrAuxp2i6mcY567v9glfLv3tU5MIAwJYc=</DigestValue></Reference></SignedInfo><SignatureValue>UCKQl+Xmm+gGfbTnPNMJ5KJu7VdGHUzrbt61v7ZQVvig2Id+a6jjl1z8gz03/dIMcJ+YUwJvsKrFHOWhycy79z+zlXU10v96tdAWzSouWe7kFToWtUpkcCgZQvAe3TYHyXhF6pfeuTbtCBRi5GTTGQ4jKAuaW88FV15LSBjBSM0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r9bampNGIVvDgz4iZEC8yeOOYsd/6p8ot8dxkTjltOnqIFbpDlTUTI0h9gpz8NBQTvHInl5s16TL3Il20PqcW05b4B7Nu0/p0QJZQOG4lntV9kqT5ZSoBbPcdxwoP7xRWjUS04aie2d/S1COaWV23Qiphnf+iSwIO6kmMb+9BV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQQuNimeW4t4FCWw9QxmBLVzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigALQBEAFIAQQBHAE8ATgBfAFAATwBXAEUAUgAtAFwAbQBvAG8AbgBnMB4XDTIwMTExNTA3NTQ1NloXDTIxMTExNTEzNTQ1NlowMzExMC8GA1UEAx4oAC0ARABSAEEARwBPAE4AXwBQAE8AVwBFAFIALQBcAG0AbwBvAG4AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr9bampNGIVvDgz4iZEC8yeOOYsd/6p8ot8dxkTjltOnqIFbpDlTUTI0h9gpz8NBQTvHInl5s16TL3Il20PqcW05b4B7Nu0/p0QJZQOG4lntV9kqT5ZSoBbPcdxwoP7xRWjUS04aie2d/S1COaWV23Qiphnf+iSwIO6kmMb+9BV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB3jxSXU5zSDWbqy/3POAJ0K5U0DOpbUWCRH7eYglCy9Et/nkwxykz847bVpWqEBMsNjHOEw97iqHORc/0BBfZHkzNIwvlhi2eOhAQhrCDOrFec6UuW3zaLkKhJBxEkgGMnpSNFxoe+jbjhbY4a+BdrxXA9+knc8IlNS8fbExyFEA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
